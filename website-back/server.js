@@ -9,7 +9,7 @@ var { Salle } = require('./models/salle');
 var app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 
-//configuration middleware(le retour de l'appel de cette fonction)
+//configuration middleware(le retour de l'appel de cette fonction),
 // est un middleware que l'on donne à express
 app.use(bodyParser.json());
 

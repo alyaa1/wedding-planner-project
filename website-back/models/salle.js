@@ -60,3 +60,4 @@ var Salle = mongoose.model('Salle', {
 });
 
 module.exports = {Salle};
+//fin
